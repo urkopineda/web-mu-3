@@ -1,0 +1,10 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />		
+		<title>Pruebas de CSS</title>
+		<link href="./css/style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<h1>Esto es una Prueba</h1>
+	</body>
+</html>

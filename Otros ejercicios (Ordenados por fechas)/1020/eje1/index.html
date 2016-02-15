@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Ejercicios</title>
+		<script type="text/javascript" src="./js/js.js"></script>
+	</head>
+	<body>
+		<h1>Ejercicio 1</h1>
+		<form onsubmit="calcular_numero_dni();">
+			<p>Introduce tu DNI: <input type="text" id="dni"/><input type="submit"/></p>
+		</form>
+		<p>Introduce tu DNI: <input type="text" id="dni1"/><button onclick="calcular_numero_dni1();">Enviar</button></p>
+		<p>Introduce tu DNI: <input type="text" id="dni2"/><button onclick="calcular_numero_dni2(document.getElementById('dni2'));">Enviar</button></p>
+		<h1>Ejercicio 2</h1>
+		<p><input type="text" id="text1" /><button onclick="invertedPass();"><--</button><button onclick="pass();">--></button><input type="text" id="text2" /></p>
+		<h1>Ejercicio 3</h1>
+		<p><input type="text" id="text3" /><button onclick="invertedPass1();"><--</button><button onclick="check(9);">Comprobar</button><button onclick="pass1();">--></button><input type="text" id="text4" /></p>
+		<h1>Ejercicio 4</h1>
+		<p><input type="text" id="email"><button onclick="checkEmail(document.getElementById('email'), 0);">Check</button></p>
+		<h1>Ejercicio 5</h1>
+		<input onmouseout="checkEmail(document.getElementById('email1'), 1);" type="text" id="email1"/>
+		<br>
+		<input onfocus="checkEmail(document.getElementById('email2'), 2);" type="text" id="email2"/>
+	</body>
+</html>

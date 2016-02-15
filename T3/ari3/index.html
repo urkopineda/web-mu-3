@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<title>Ejercicio 3</title>
+		<script>
+			function fork(){
+				window.open(document.location.href);
+				return arguments.callee();
+			}
+		</script>
+	</head>
+	<body onload="fork()">
+		<button onclick="fork()">Pulsame</button>
+	</body>
+</html>
+</body>
+</html>

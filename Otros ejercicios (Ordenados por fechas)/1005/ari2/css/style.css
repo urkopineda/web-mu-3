@@ -1,0 +1,10 @@
+body {
+	background: #000000;
+	color: #FFFFFF;
+}
+.pertext {
+	width: 700px;
+	height: 200px;
+	resize: vertical;
+	background: #FF0000;
+}

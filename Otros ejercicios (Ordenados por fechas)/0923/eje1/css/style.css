@@ -1,0 +1,23 @@
+a:link {
+	color: #FF0000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #00FF00;
+	text-decoration: overline;
+}
+
+a:visited {
+	color: #0000FF;
+	text-decoration: underline;
+}
+
+#change:hover {
+	font-size: 30px;
+	color: #FF0000;
+}
+
+#change:hover:before {
+	content: 'HOLAAAAAAAAAAAAAAAAAAAAAA';
+}

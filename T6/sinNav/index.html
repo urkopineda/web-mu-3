@@ -1,0 +1,220 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Urko Pineda - Ingeniería Web I</title>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/micss.css" />
+		<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+		<script src='http://jschr.github.io/textillate/assets/jquery.lettering.js'></script>
+		<script src='http://jschr.github.io/textillate/jquery.textillate.js'></script>
+		<script src="assets/js/index.js"></script>
+		<script src="assets/js/script1006.js"></script>
+		<script src="assets/js/script1007.js"></script>
+		<script src="assets/js/script1013.js"></script>
+		<script src="assets/js/script1019.js"></script>
+		<!-- TEXTTILLATE -->
+		<link href="assets/animate.css" rel="stylesheet">
+  		<link href="assets/style.css" rel="stylesheet">
+  		<link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
+  		<script type="text/javascript">
+  			$(function () {
+			    $('.tlt').textillate();
+			})
+  		</script>
+	</head>
+	<body>
+		<section id="header">
+			<header class="major">
+				<h1 class="tlt">Urko Pineda</h1>
+				<p>Ejercicios hechos en clase<br/>de Ingeniería Web I</p>
+			</header>
+			<div class="container">
+				<ul class="actions">
+					<li><a href="#one" class="button special scrolly">Ver más</a></li>
+				</ul>
+			</div>
+		</section>
+		<section id="one" class="main special">
+			<div class="container">
+				<span class="image fit primary"><img src="images/pic01.jpg" alt="" /></span>
+				<div class="content">
+					<header class="major">
+						<h2>5 de Octubre #1</h2>
+					</header>
+					<form onsubmit="alert('Hola '+document.getElementById('id-nombre').value+' '+document.getElementById('id-apellido').value);" method="post">
+					<fieldset>
+						<p>Nombre: </p>
+						<input type="text" id="id-nombre" name="nombre">
+						<p>Apellido: </p>
+						<input type="text" id="id-apellido" name="apellido">
+						<br>
+						<p>DNI: </p>
+						<input type="text" id="id-dni" name="dni" maxlength="9">
+						<br><br>
+						<fieldset>
+						<legend>Selecciona tu sexo</legend>
+						<input type="radio" id="radio-mujer" name="rsexo" value="Mujer"><label>Mujer</label>
+						<br>
+						<input type="radio" id="radio-hombre" name="rsexo" value="Hombre"><label>Hombre</label>
+						<br>
+						<input type="radio" id="radio-otro" name="rsexo" value="Otro"><label>Otro</label>
+						</fieldset>
+						<br><br>
+						<fieldset>
+						<legend>Selecciona tus aficiones</legend>
+						<input type="checkbox" id="cbafi1" name="aficion1" value="Afición 1"><label>Afición 1</label>
+						<br>
+						<input type="checkbox" id="cbafi2" name="aficion2" value="Afición 2"><label>Afición 2</label>
+						<br>
+						<input type="checkbox" id="cbafi3" name="aficion3" value="Afición 3"><label>Afición 3</label>
+						</fieldset>
+						<br><br>
+						<input type="submit" value="Enviar">
+						<input type="reset" value="Reestablecer">
+					</fieldset>
+					</form>
+				</div>
+				<a href="#two" class="goto-next scrolly">Next</a>
+			</div>
+		</section>
+		<section id="two" class="main special">
+			<div class="container">
+				<span class="image fit primary"><img src="images/pic01.jpg" alt="" /></span>
+				<div class="content">
+					<header class="major">
+						<h2>5 de Octubre #2</h2>
+					</header>
+					<fieldset>
+					<br>
+					<label>Izena: </label>
+					<input type="text" id="id-nombre" name="nombre">
+					<label>Zure gakoa: </label>
+					<input type="password" id="id-password" name="password">
+					<br><br>
+					<label>Bidaltzea nahi duzun artxiboak: </label>
+					<input type="checkbox" id="art1" name="art1" value="art1"><label>HTML manuala </label>
+					<input type="checkbox" id="art2" name="art2" value="art2"><label>Dreamweaver programa </label>
+					<input type="checkbox" id="art3" name="art3" value="art3"><label>Laguntza artxiboa </label>
+					<br><br>
+					<label>Zure adina: </label>
+					<input type="radio" id="radio-20" name="radin" value="-20"><label>20 baino gazteago </label>
+					<input type="radio" id="radio-40" name="radin" value="20-40"><label>20 eta 40 bitartean </label>
+					<input type="radio" id="radio-40+" name="radin" value="40+"><label>40 baino gehiago </label>
+					<br><br>
+					<label>Nola aurkitu zenuen nire web orria: </label>
+					<select>
+						<option>Kasualidadez</option>
+						<option>Google bilatzen</option>
+						<option selected="selected">Yahoo bilatzen</option>
+						<option>Lagun bate esanda</option>
+					</select>
+					<br>
+					<p>Komentarioak</p>
+					<input class="pertext" type="textarea" id="comentarios" name="comentarios" maxlength="300">
+					<br><br>
+					<input type="submit" value="Bidali">
+					<input type="reset" value="Ezabatu">
+				</fieldset>
+				</div>
+				<a href="#three" class="goto-next scrolly">Next</a>
+			</div>
+		</section>
+		<section id="three" class="main special">
+			<div class="container">
+				<span class="image fit primary"><img src="images/pic01.jpg" alt="" /></span>
+				<div class="content">
+					<header class="major">
+						<h2>6 de Octubre</h2>
+					</header>
+					<label>Valor #1:</label><input type="text" id="op1">
+					<br>
+					<label>Valor #2:</label><input type="text" id="op2">
+					<br><br>
+					<select id="operacion">
+						<option>Suma</option>
+						<option>Resta</option>
+						<option>División</option>
+						<option>Multiplicación</option>
+					</select>
+					<br><br>
+					<button onclick="alertOp()">Calcular</button>
+					<button onclick="alertOpPrompt()">Ventana de cálculo</button>
+				</div>
+				<a href="#four" class="goto-next scrolly">Next</a>
+			</div>
+		</section>
+		<section id="four" class="main special">
+			<div class="container">
+				<span class="image fit primary"><img src="images/pic01.jpg" alt="" /></span>
+				<div class="content">
+					<header class="major">
+						<h2>7 de Octubre - Ejercicios 1, 2, 3</h2>
+					</header>
+					<h2>Ejercicio 1</h2>
+					<button onclick="preguntarMes()">Ventana de cálculo de mes</button>
+					<h2>Ejercicio 2</h2>
+					<button onclick="valoresMostrar()">Ejecutar</button>
+				</div>
+				<a href="#five" class="goto-next scrolly">Next</a>
+			</div>
+		</section>
+		<section id="five" class="main special">
+			<div class="container">
+				<span class="image fit primary"><img src="images/pic01.jpg" alt="" /></span>
+				<div class="content">
+					<header class="major">
+						<h2>13 de Octubre</h2>
+					</header>
+					<div id="d1">
+						<p id="hmundo">Hola Mundo!</p>
+					</div>
+					<div id="d2">
+						<p id="qt">Que tal?</p>
+					</div>
+					<button onclick="returnQt()">Return P Qt</button>
+				</div>
+				<a href="#six" class="goto-next scrolly">Next</a>
+			</div>
+		</section>
+		<section id="six" class="main special">
+			<div class="container">
+				<span class="image fit primary"><img src="images/pic01.jpg" alt="" /></span>
+				<div class="content">
+					<header class="major">
+						<h2>19 de Octubre</h2>
+					</header>
+					<h2>Ejercicio 1</h2>
+					<form onsubmit="calcular_numero_dni();">
+						<p>Introduce tu DNI: <input type="text" id="dni"/><input type="submit"/></p>
+					</form>
+					<p>Introduce tu DNI: <input type="text" id="dni1"/><button onclick="calcular_numero_dni1();">Enviar</button></p>
+					<p>Introduce tu DNI: <input type="text" id="dni2"/><button onclick="calcular_numero_dni2(document.getElementById('dni2'));">Enviar</button></p>
+					<h2>Ejercicio 2</h2>
+					<p><input type="text" id="text1" /><button onclick="invertedPass();"><--</button><button onclick="pass();">--></button><input type="text" id="text2" /></p>
+					<h2>Ejercicio 3</h2>
+					<p><input type="text" id="text3" /><button onclick="invertedPass1();"><--</button><button onclick="check(9);">Comprobar</button><button onclick="pass1();">--></button><input type="text" id="text4" /></p>
+					<h2>Ejercicio 4</h2>
+					<p><input type="text" id="email"><button onclick="checkEmail();">Check</button></p>
+				</div>
+				<a href="#three" class="goto-next scrolly">Next</a>
+			</div>
+		</section>
+		<section id="footer">
+			<footer>
+				<ul class="copyright">
+					<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a>, modified by Urko Pineda</li><li>Demo Images: <a href="http://unsplash.com">Unsplash</a></li>
+				</ul>
+			</footer>
+		</section>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>

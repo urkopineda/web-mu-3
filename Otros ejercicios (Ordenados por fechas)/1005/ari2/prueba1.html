@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Ariketa Formularios 2</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+<form method="get">
+<fieldset>
+	<br>
+	<label>Izena: </label>
+	<input type="text" id="id-nombre" name="nombre">
+	<label>Zure gakoa: </label>
+	<input type="password" id="id-password" name="password">
+	<br><br>
+	<label>Bidaltzea nahi duzun artxiboak: </label>
+	<input type="checkbox" id="art1" name="art1" value="art1"><label>HTML manuala </label>
+	<input type="checkbox" id="art2" name="art2" value="art2"><label>Dreamweaver programa </label>
+	<input type="checkbox" id="art3" name="art3" value="art3"><label>Laguntza artxiboa </label>
+	<br><br>
+	<label>Zure adina: </label>
+	<input type="radio" id="radio-20" name="radin" value="-20"><label>20 baino gazteago </label>
+	<input type="radio" id="radio-40" name="radin" value="20-40"><label>20 eta 40 bitartean </label>
+	<input type="radio" id="radio-40+" name="radin" value="40+"><label>40 baino gehiago </label>
+	<br><br>
+	<label>Nola aurkitu zenuen nire web orria: </label>
+	<select>
+		<option>Kasualidadez</option>
+		<option>Google bilatzen</option>
+		<option selected="selected">Yahoo bilatzen</option>
+		<option>Lagun bate esanda</option>
+	</select>
+	<br>
+	<p>Komentarioak</p>
+	<input class="pertext" type="textarea" id="comentarios" name="comentarios" maxlength="300">
+	<br><br>
+	<input type="submit" value="Bidali">
+	<input type="reset" value="Ezabatu">
+</fieldset>
+</form>
+</body>
+</html>

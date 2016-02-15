@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Urko Pineda - Ingeniería Web I</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/micss.css" />
+	</head>
+	<body class="landing">
+		<div id="page-wrapper">
+			<header id="header" class="alt">
+				<h1><a href="index.html">Urko Pineda</a></h1>
+				<nav id="nav">
+					<ul>
+						<li class="special">
+							<a href="#menu" class="menuToggle"><span>Menu</span></a>
+							<div id="menu">
+								<ul>
+									<li><a href="index.html">Inicio</a></li>
+									<li><a href="1005.html">5 de Octubre</a></li>
+									<li><a href="1006.html">6 de Octubre</a></li>
+									<li><a href="1007.html">7 de Octubre</a></li>
+									<li><a href="1013.html">13 de Octubre</a></li>
+									<li><a href="1019.html">19 de Octubre</a></li>	
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			<section id="one" class="wrapper style1 special">
+				<div class="inner">
+					<header class="major">
+						<h2>5 de Octubre #1</h2>
+					</header>
+					<form onsubmit="alert('Hola '+document.getElementById('id-nombre').value+' '+document.getElementById('id-apellido').value);" method="post">
+					<fieldset>
+						<p>Nombre: </p>
+						<input type="text" id="id-nombre" name="nombre">
+						<p>Apellido: </p>
+						<input type="text" id="id-apellido" name="apellido">
+						<br>
+						<p>DNI: </p>
+						<input type="text" id="id-dni" name="dni" maxlength="9">
+						<br><br>
+						<fieldset>
+						<legend>Selecciona tu sexo</legend>
+						<input type="radio" id="radio-mujer" name="rsexo" value="Mujer"><label>Mujer</label>
+						<br>
+						<input type="radio" id="radio-hombre" name="rsexo" value="Hombre"><label>Hombre</label>
+						<br>
+						<input type="radio" id="radio-otro" name="rsexo" value="Otro"><label>Otro</label>
+						</fieldset>
+						<br><br>
+						<fieldset>
+						<legend>Selecciona tus aficiones</legend>
+						<input type="checkbox" id="cbafi1" name="aficion1" value="Afición 1"><label>Afición 1</label>
+						<br>
+						<input type="checkbox" id="cbafi2" name="aficion2" value="Afición 2"><label>Afición 2</label>
+						<br>
+						<input type="checkbox" id="cbafi3" name="aficion3" value="Afición 3"><label>Afición 3</label>
+						</fieldset>
+						<br><br>
+						<input type="submit" value="Enviar">
+						<input type="reset" value="Reestablecer">
+					</fieldset>
+					</form>
+					<a href="#two" class="more scrolly">Ver más</a>
+				</div>
+			</section>
+			<section id="two" class="wrapper style1 special">
+				<div class="inner">
+					<header class="major">
+						<h2>5 de Octubre #2</h2>
+					</header>
+					<fieldset>
+					<br>
+					<label>Izena: </label>
+					<input type="text" id="id-nombre" name="nombre">
+					<label>Zure gakoa: </label>
+					<input type="password" id="id-password" name="password">
+					<br><br>
+					<label>Bidaltzea nahi duzun artxiboak: </label>
+					<input type="checkbox" id="art1" name="art1" value="art1"><label>HTML manuala </label>
+					<input type="checkbox" id="art2" name="art2" value="art2"><label>Dreamweaver programa </label>
+					<input type="checkbox" id="art3" name="art3" value="art3"><label>Laguntza artxiboa </label>
+					<br><br>
+					<label>Zure adina: </label>
+					<input type="radio" id="radio-20" name="radin" value="-20"><label>20 baino gazteago </label>
+					<input type="radio" id="radio-40" name="radin" value="20-40"><label>20 eta 40 bitartean </label>
+					<input type="radio" id="radio-40+" name="radin" value="40+"><label>40 baino gehiago </label>
+					<br><br>
+					<label>Nola aurkitu zenuen nire web orria: </label>
+					<select>
+						<option>Kasualidadez</option>
+						<option>Google bilatzen</option>
+						<option selected="selected">Yahoo bilatzen</option>
+						<option>Lagun bate esanda</option>
+					</select>
+					<br>
+					<p>Komentarioak</p>
+					<input class="pertext" type="textarea" id="comentarios" name="comentarios" maxlength="300">
+					<br><br>
+					<input type="submit" value="Bidali">
+					<input type="reset" value="Ezabatu">
+				</fieldset>
+				</div>
+			</section>
+		</div>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
